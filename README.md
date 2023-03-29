@@ -1,3 +1,3 @@
 # Portfolio
 My first Portfolio
-Is a base for a new one probably better than this
+Is a first version of a portfolio, probably i will update a new version better than this
