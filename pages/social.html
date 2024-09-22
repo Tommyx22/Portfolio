@@ -10,7 +10,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -20,7 +20,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark background">
         <div class="container-fluid">
             <a><img src="../image/Polar Birdo.jpg" width="50px" class="mx-4 circle"></a>
-            <a class="navbar-brand text-light" href="../index.html">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,10 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="social.html">Social</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="progetti.html">Progetti</a>
+                        <a class="nav-link active" aria-current="page" href="social.html">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="progetti.html">Progetti Scolastici</a>
                     </li>
                 </ul>
             </div>
@@ -44,49 +46,41 @@
 
     <div class="container-fluid centercard">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-5">
-            <div class="col">
+            <div class="col" onclick="window.open(`https://github.com/Tommyx22`, '_blank')">
                 <div class="card background">
                     <img src="../image/Github.svg">
                     <div class="card-body">
                         <h3 class="card-title text-center textcard">Github</h5>
-                            <a href="https://github.com/Tommyx22" target="_blank"
-                                class="btn btn-success buttoncard">Continue</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" onclick="window.open(`https://www.linkedin.com/in/tommaso-lanini-34450823a/`, '_blank')">
+                <div class="card background">
+                    <img style="padding: 25px; border-radius: 50px" src="../image/Linkedin.svg">
+                    <div class="card-body">
+                        <h3 class="card-title text-center textcard">LinkedIn</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" onclick="window.open(`https://www.instagram.com/tommaso.lanini/`, '_blank')">
                 <div class="card background">
                     <img src="../image/Instagram.svg">
                     <div class="card-body">
                         <h3 class="card-title text-center textcard">Instagram</h5>
-                            <a href="https://www.instagram.com/tommaso.lanini/" target="_blank"
-                                class="btn btn-success buttoncard">Continue</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" onclick="window.open(`https://www.youtube.com/channel/UCqngoH-Dcgn6WLcaOeJ2RgQ`, '_blank')">
                 <div class="card background">
                     <img src="../image/YouTube.svg">
                     <div class="card-body">
                         <h3 class="card-title text-center textcard">YouTube</h5>
-                            <a href="https://www.youtube.com/channel/UCqngoH-Dcgn6WLcaOeJ2RgQ" target="_blank"
-                                class="btn btn-success buttoncard">Continue</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card background">
-                    <img src="../image/Twitter.svg">
-                    <div class="card-body">
-                        <h3 class="card-title text-center textcard">Twitter</h5>
-                            <a href="https://twitter.com/Tons22_" target="_blank"
-                                class="btn btn-success buttoncard">Continue</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <p class="bottomtext">Email: laninitommaso22@gmail.com</p>
+    <p class="bottomtext">Email: <a href="mailto:laninitommaso@gmail.com">laninitommaso@gmail.com</a></p>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

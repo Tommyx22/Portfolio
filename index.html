@@ -10,7 +10,9 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Moderustic:wght@300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark background">
         <div class="container-fluid">
             <a><img src="image/Polar Birdo.jpg" width="50px" class="mx-4 circle"></a>
-            <a class="navbar-brand text-light" href="index.html">Home</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -27,10 +29,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="pages/social.html">Social</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="pages/progetti.html">Progetti</a>
+                        <a class="nav-link" aria-current="page" href="pages/social.html">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/progetti.html">Progetti Scolastici</a>
                     </li>
                 </ul>
             </div>
@@ -38,31 +43,35 @@
     </nav>
 
     <div class="immagine">
-        <img src="image/Polar Birdo.jpg" width="400px" height="400px" style="border-radius: 50%;">
+        <img src="image/Polar Birdo.jpg" width="350px" height="350px" style="border-radius: 50%;">
+    </div>
+
+    <div class="nome">
+        <h1>Tommaso Lanini</h1>
     </div>
 
     <div class="container">
         <div class="row row-cols-sm-1 row-cols-xl-2 buttoncard">
-            <div class=" col text-center text-light background text">
+
+            <div class="col text-center text-light background text flex flex-column">
+                <h1 id="titoli" class="mb-3">Programmatore</h1>
                 <p>
-                    <b id="titoli">Programmatore</b>
-                    <br>
-                    <br>
-                    Sono un programmatore principiante in continua crescita. In tutto questo tempo ho imparato: c++,
-                    html e css. In futuro vorrei imparare javascript essendo un linguaggio molto versatile, ambisco a
-                    diventare un FullStack developer.
+                    Sono un programmatore principiante appena diplomato, nel mio percorso scolastico ho imparato: C++,
+                    le tecnologie web (HTML, CSS e JS), Java, Bootstrap, MySQL, JSON, ho imparato anche ad utilizzare
+                    Git e i sistemi Linux.
+                    ambisco a diventare un FullStack Developer.
                 </p>
             </div>
 
-            <div class="col text-center text-light background text">
+            <div class="col text-center text-light background text flex flex-column">
+                <h1 id="titoli" class="mb-3">Motociclista</h1>
                 <p>
-                    <b id="titoli">Fotografo</b>
-                    <br>
-                    <br>
-                    Sono un appasionato di fotografia oltre a sapere tutti i segreti delle macchine fotografiche so
-                    adoperare photoshop, premiere e altri programmi.
+                Sono un appasionato del mondo dei motori mi piace veramente di tutto da moto a macchine, seguo la
+                Formula 1 e la MotoGP.
+                Nel tempo libero mi piace guidare la mia moto, al momento sto consenguendo la patente per la macchina.
                 </p>
             </div>
+
         </div>
     </div>
 
